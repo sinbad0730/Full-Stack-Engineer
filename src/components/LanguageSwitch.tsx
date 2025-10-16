@@ -15,12 +15,12 @@ const LanguageSwitch: React.FC = () => {
           onChange={toggleLanguage}
           checked={language === "EN"}
         />
-        <label
+        {/* <label
           className="tgl-btn"
           htmlFor="toggle-language"
           data-tg-off={buttonLabels.language.de}
           data-tg-on={buttonLabels.language.en}
-        ></label>
+        ></label> */}
       </div>
     </React.Fragment>
   );
