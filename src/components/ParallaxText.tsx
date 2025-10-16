@@ -134,8 +134,8 @@ export default function LiveTicker() {
             rel="noopener noreferrer"
           >
             <span className="text-[--orange]">&lt;</span>
-            {language === "PT"
-              ? liveTickerData.content.pt
+            {language === "DE"
+              ? liveTickerData.content.de
               : liveTickerData.content.en}
             <span className="text-[--orange]">/&gt;</span>
           </Link>

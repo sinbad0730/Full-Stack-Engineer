@@ -32,7 +32,7 @@ const AboutMe: React.FC = () => {
     }
   };
   const paragraphs =
-    language === "PT" ? aboutMeData.paragraphs_PT : aboutMeData.paragraphs_EN;
+    language === "DE" ? aboutMeData.paragraphs_PT : aboutMeData.paragraphs_EN;
 
   return (
     <React.Fragment>
@@ -48,12 +48,12 @@ const AboutMe: React.FC = () => {
           >
             <p className="text-[--black] mb-6">
               <span className="text-orange">&lt;</span>
-              {language === "PT" ? aboutMeData.title : aboutMeData.title_EN}
+              {language === "DE" ? aboutMeData.title : aboutMeData.title_EN}
               <span className="text-orange">/&gt;</span>
             </p>
 
             <h2 className="text-[--black] text-center max-lg:text-left break-words">
-              {language === "PT"
+              {language === "DE"
                 ? aboutMeData.description
                 : aboutMeData.description_EN}
             </h2>

@@ -39,19 +39,19 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    pt: "Olá, eu sou Elielson",
+    de: "Olá, eu sou Elielson",
     en: "Hi, I'm Elielson",
   },
   subtitle: "Software FullStack Engineer ",
   description: {
-    pt: "Eu sou Elielson, um desenvolvedor fullstack com o objetivo de avançar minha carreira e participar de projetos inspiradores. Aqui apresento meu trabalho e minha paixão pelo desenvolvimento web. Vamos criar soluções digitais juntos e moldar o futuro!",
+    de: "Eu sou Elielson, um desenvolvedor fullstack com o objetivo de avançar minha carreira e participar de projetos inspiradores. Aqui apresento meu trabalho e minha paixão pelo desenvolvimento web. Vamos criar soluções digitais juntos e moldar o futuro!",
     en: "I'm Elielson, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        pt: "Entre em contato",
+        de: "Entre em contato",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +60,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        pt: "Meus Projetos",
+        de: "Meus Projetos",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -169,7 +169,7 @@ export const projectsData = [
 
 export const liveTickerData = {
   content: {
-    pt: "Mais Projetos no Github",
+    de: "Mais Projetos no Github",
     en: "More Projects on Github",
   },
 } as const;
@@ -297,16 +297,16 @@ export const skillsDataCMS = [
 ] as const;
 
 export const navLinks = [
-  { pt: "Início", en: "Home", hash: "#home", icon: GoHome },
-  { pt: "Habilidades", en: "Skills", hash: "#skills", icon: GoStack },
-  { pt: "Projetos", en: "Projects", hash: "#projects", icon: GoProject },
-  { pt: "Sobre mim", en: "About me", hash: "#about-me", icon: GoPerson },
-  { pt: "Contato", en: "Contact", hash: "#contact", icon: GoMail },
+  { de: "Início", en: "Home", hash: "#home", icon: GoHome },
+  { de: "Habilidades", en: "Skills", hash: "#skills", icon: GoStack },
+  { de: "Projetos", en: "Projects", hash: "#projects", icon: GoProject },
+  { de: "Sobre mim", en: "About me", hash: "#about-me", icon: GoPerson },
+  { de: "Contato", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { pt: "Imprimir", en: "Imprint", hash: "#imprint", data: <Imprint /> },
-  { pt: "Privacidade", en: "Privacy", hash: "#privacy", data: <Privacy /> },
+  { de: "Imprimir", en: "Imprint", hash: "#imprint", data: <Imprint /> },
+  { de: "Privacidade", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
 export const sideBarRightMail = {
@@ -334,12 +334,12 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    pt: '"Não é nada importante acertar na primeira vez. É vitalmente importante acertar na última vez."',
+    de: '"Não é nada importante acertar na primeira vez. É vitalmente importante acertar na última vez."',
     en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
     author: "Andrew Hunt",
   },
   {
-    pt: '"A web é como uma tela, e o código é a tinta. Crie sua obra-prima."',
+    de: '"A web é como uma tela, e o código é a tinta. Crie sua obra-prima."',
     en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
   },
 ] as const;
@@ -393,23 +393,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    pt: "Contato",
+    de: "Contato",
     en: "Contact",
   },
   description: {
-    pt: "Escreva-me uma mensagem e entrarei em contato com você.",
+    de: "Escreva-me uma mensagem e entrarei em contato com você.",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        pt: "Seu Nome",
+        de: "Seu Nome",
         en: "Your Name",
       },
       type: "text",
       validation: {
-        pt: "Por favor, preencha seu nome",
+        de: "Por favor, preencha seu nome",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -417,12 +417,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        pt: "Seu E-mail",
+        de: "Seu E-mail",
         en: "Your E-Mail",
       },
       type: "email",
       validation: {
-        pt: "Por favor, preencha seu e-mail",
+        de: "Por favor, preencha seu e-mail",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -430,12 +430,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        pt: "Seu Assunto",
+        de: "Seu Assunto",
         en: "Your Subject",
       },
       type: "text",
       validation: {
-        pt: "Por favor, preencha o assunto",
+        de: "Por favor, preencha o assunto",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -443,20 +443,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      pt: "Sua Mensagem",
+      de: "Sua Mensagem",
       en: "Your Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      pt: "Por favor, preencha sua mensagem",
+      de: "Por favor, preencha sua mensagem",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      pt: "Enviar",
+      de: "Enviar",
       en: "Send",
     },
   },
@@ -469,11 +469,11 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      pt: "Concordo que Elielson possa usar meus dados pessoais (nome e endereço de e-mail) para entrar em contato comigo.",
+      de: "Concordo que Elielson possa usar meus dados pessoais (nome e endereço de e-mail) para entrar em contato comigo.",
       en: "I agree that Elielson may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
-      pt: "Ao enviar esta solicitação, você reconhece que leu a Política de Privacidade",
+      de: "Ao enviar esta solicitação, você reconhece que leu a Política de Privacidade",
       en: "By submitting this request, you acknowledge that you have read the Private Policy",
     },
   },
@@ -481,26 +481,26 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    pt: "🦄 A demonstração ao vivo será aberta em breve. Iniciando servidores...",
+    de: "🦄 A demonstração ao vivo será aberta em breve. Iniciando servidores...",
     en: "🦄 The live demo will open shortly. Starting servers...",
   },
   successEmailSent: {
-    pt: "🦄 Obrigado pelo seu e-mail. Entrarei em contato o mais breve possível",
+    de: "🦄 Obrigado pelo seu e-mail. Entrarei em contato o mais breve possível",
     en: "🦄 Thank you for your email. I will get back to you as soon as possible",
   },
   failedEmailSent: {
-    pt: "🦄 Infelizmente o envio do seu e-mail não funcionou. Por favor, tente novamente mais tarde",
+    de: "🦄 Infelizmente o envio do seu e-mail não funcionou. Por favor, tente novamente mais tarde",
     en: "🦄 Unfortunately the sending of your email did not work. Please try again later",
   },
   failedValidationName: {
-    pt: "Por favor, preencha seu nome",
+    de: "Por favor, preencha seu nome",
     en: "Please fill in your name",
   },
 } as const;
 
 export const buttonLabels = {
   language: {
-    pt: "PT",
+    de: "DE",
     en: "EN",
   },
 } as const;

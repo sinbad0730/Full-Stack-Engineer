@@ -48,7 +48,7 @@ const TechStack: React.FC = () => {
               <span className="text-[--orange]">/&gt;</span>
             </p>
             <h2>
-              {language === "PT"
+              {language === "DE"
                 ? "Minha TechStack e Habilidades"
                 : "My TechStack and Skills"}
             </h2>
